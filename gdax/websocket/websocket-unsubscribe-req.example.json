@@ -1,0 +1,8 @@
+{
+    "type": "unsubscribe",
+    "product_ids": [
+        "ETH-USD",
+        "ETH-EUR"
+    ],
+    "channels": ["ticker"]
+}

@@ -1,0 +1,11 @@
+{
+    "type": "subscribe",
+    "product_ids": [
+        "BTC-USD"
+    ],
+    "channels": ["full"],
+    "signature": "...",
+    "key": "...",
+    "passphrase": "...",
+    "timestamp": "..."
+}
