@@ -1,0 +1,34 @@
+[
+    {
+        "id": "2ae3354e-f1c3-5771-8a37-6228e9d239db",
+        "name": "USD Wallet",
+        "balance": "0.00",
+        "currency": "USD",
+        "type": "fiat",
+        "primary": false,
+        "active": true,
+        "wire_deposit_information": {
+            "account_number": "0199003122",
+            "routing_number": "026013356",
+            "bank_name": "Metropolitan Commercial Bank",
+            "bank_address": "99 Park Ave 4th Fl New York, NY 10016",
+            "bank_country": {
+                "code": "US",
+                "name": "United States"
+            },
+            "account_name": "Coinbase, Inc",
+            "account_address": "548 Market Street, #23008, San Francisco, CA 94104",
+            "reference": "BAOCAEUX"
+        },
+        "sepa_deposit_information": {
+            "iban": "EE957700771001355096",
+            "swift": "LHVBEE22",
+            "bank_name": "AS LHV Pank",
+            "bank_address": "Tartu mnt 2, 10145 Tallinn, Estonia",
+            "bank_country_name": "Estonia",
+            "account_name": "Coinbase UK, Ltd.",
+            "account_address": "9th Floor, 107 Cheapside, London, EC2V 6DN, United Kingdom",
+            "reference": "CBAEUXOVFXOXYX"
+        }
+    }
+]

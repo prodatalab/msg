@@ -1,6 +1,6 @@
 package gdax
 
-type Accounts []struct {
+type AccountsAccounts []struct {
 	Available string `json:"available"`
 	Balance   string `json:"balance"`
 	Currency  string `json:"currency"`
