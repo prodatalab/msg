@@ -1,0 +1,53 @@
+{
+    "SourcePath": "channel.go",
+    "SourcePackage": "gdax",
+    "Structs": {
+        "Channel": {
+            "StructName": "Channel",
+            "Fields": [
+                {
+                    "Zid": 0,
+                    "FieldGoName": "BaseMsg",
+                    "FieldTagName": "BaseMsg",
+                    "FieldTypeStr": "bm.BaseMsg",
+                    "FieldCategory": 23,
+                    "FieldPrimitive": 22,
+                    "FieldFullType": {
+                        "Kind": 22,
+                        "Str": "bm.BaseMsg"
+                    }
+                },
+                {
+                    "Zid": 1,
+                    "FieldGoName": "Name",
+                    "FieldTagName": "Name",
+                    "FieldTypeStr": "string",
+                    "FieldCategory": 23,
+                    "FieldPrimitive": 2,
+                    "FieldFullType": {
+                        "Kind": 2,
+                        "Str": "string"
+                    }
+                },
+                {
+                    "Zid": 2,
+                    "FieldGoName": "ProductIDs",
+                    "FieldTagName": "ProductIDs",
+                    "FieldTypeStr": "[]string",
+                    "FieldCategory": 26,
+                    "FieldFullType": {
+                        "Kind": 26,
+                        "Str": "Slice",
+                        "Domain": {
+                            "Kind": 2,
+                            "Str": "string"
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "Imports": [
+        "bm \"github.com/prodatalab/msg/basemsg\""
+    ]
+}

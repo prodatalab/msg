@@ -1,0 +1,39 @@
+{
+    "SourcePath": "bytearray.go",
+    "SourcePackage": "bytearray",
+    "ZebraSchemaId": 148407825339172,
+    "Structs": {
+        "ByteArray": {
+            "StructName": "ByteArray",
+            "Fields": [
+                {
+                    "Zid": 0,
+                    "FieldGoName": "BaseMsg",
+                    "FieldTagName": "BaseMsg",
+                    "FieldTypeStr": "bm.BaseMsg",
+                    "FieldCategory": 23,
+                    "FieldPrimitive": 22,
+                    "FieldFullType": {
+                        "Kind": 22,
+                        "Str": "bm.BaseMsg"
+                    }
+                },
+                {
+                    "Zid": 1,
+                    "FieldGoName": "Value",
+                    "FieldTagName": "Value",
+                    "FieldTypeStr": "[]byte",
+                    "FieldCategory": 23,
+                    "FieldPrimitive": 1,
+                    "FieldFullType": {
+                        "Kind": 1,
+                        "Str": "bytes"
+                    }
+                }
+            ]
+        }
+    },
+    "Imports": [
+        "bm \"github.com/prodatalab/msg/basemsg\""
+    ]
+}

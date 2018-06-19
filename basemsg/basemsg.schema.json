@@ -1,0 +1,36 @@
+{
+    "SourcePath": "basemsg.go",
+    "SourcePackage": "basemsg",
+    "ZebraSchemaId": 536110458841589,
+    "Structs": {
+        "BaseMsg": {
+            "StructName": "BaseMsg",
+            "Fields": [
+                {
+                    "Zid": 1,
+                    "FieldGoName": "APIType",
+                    "FieldTagName": "APIType",
+                    "FieldTypeStr": "int64",
+                    "FieldCategory": 23,
+                    "FieldPrimitive": 17,
+                    "FieldFullType": {
+                        "Kind": 17,
+                        "Str": "int64"
+                    }
+                },
+                {
+                    "Zid": 0,
+                    "FieldGoName": "APIVersion",
+                    "FieldTagName": "APIVersion",
+                    "FieldTypeStr": "int8",
+                    "FieldCategory": 23,
+                    "FieldPrimitive": 14,
+                    "FieldFullType": {
+                        "Kind": 14,
+                        "Str": "int8"
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,13 +1,11 @@
 {
     "sequence": "3",
     "bids": [
-        [ price, size, num-orders ],
-        [ "295.96", "4.39088265", 2 ],
-        ...
+        [ "price", "size", "num-orders" ],
+        [ "295.96", "4.39088265", 2 ]
     ],
     "asks": [
-        [ price, size, num-orders ],
-        [ "295.97", "25.23542881", 12 ],
-        ...
+        [ "price", "size", "num-orders" ],
+        [ "295.97", "25.23542881", 12 ]
     ]
 }

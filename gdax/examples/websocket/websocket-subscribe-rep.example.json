@@ -6,14 +6,14 @@
             "product_ids": [
                 "ETH-USD",
                 "ETH-EUR"
-            ],
+            ]
         },
         {
             "name": "heartbeat",
             "product_ids": [
                 "ETH-USD",
                 "ETH-EUR"
-            ],
+            ]
         },
         {
             "name": "ticker",

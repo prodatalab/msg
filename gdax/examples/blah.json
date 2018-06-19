@@ -1,16 +1,5 @@
-[
-    {
-        "id": "bc6d7162-d984-5ffa-963c-a493b1c1370b",
-        "type": "ach_bank_account",
-        "name": "Bank of America - eBan... ********7134",
-        "currency": "USD",
-        "primary_buy": true,
-        "primary_sell": true,
-        "allow_buy": true,
-        "allow_sell": true,
-        "allow_deposit": true,
-        "allow_withdraw": true,
-        "limits": {
+{
+"limits": {
             "buy": [
                 {
                     "period_in_days": 1,
@@ -65,4 +54,3 @@
             ]
         }
     }
-]

@@ -1,0 +1,57 @@
+{
+    "SourcePath": "subscribe-rep.go",
+    "SourcePackage": "gdax",
+    "Structs": {
+        "SubscribeRep": {
+            "StructName": "SubscribeRep",
+            "Fields": [
+                {
+                    "Zid": 0,
+                    "FieldGoName": "BaseMsg",
+                    "FieldTagName": "BaseMsg",
+                    "FieldTypeStr": "bm.BaseMsg",
+                    "FieldCategory": 23,
+                    "FieldPrimitive": 22,
+                    "FieldFullType": {
+                        "Kind": 22,
+                        "Str": "bm.BaseMsg"
+                    }
+                },
+                {
+                    "Zid": 1,
+                    "FieldGoName": "Type",
+                    "FieldTagName": "Type",
+                    "FieldTypeStr": "string",
+                    "FieldCategory": 23,
+                    "FieldPrimitive": 2,
+                    "FieldFullType": {
+                        "Kind": 2,
+                        "Str": "string"
+                    }
+                },
+                {
+                    "Zid": 2,
+                    "FieldGoName": "Channels",
+                    "FieldTagName": "Channels",
+                    "FieldTypeStr": "[]*Channel",
+                    "FieldCategory": 26,
+                    "FieldFullType": {
+                        "Kind": 26,
+                        "Str": "Slice",
+                        "Domain": {
+                            "Kind": 28,
+                            "Str": "Pointer",
+                            "Domain": {
+                                "Kind": 22,
+                                "Str": "Channel"
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "Imports": [
+        "bm \"github.com/prodatalab/msg/basemsg\""
+    ]
+}

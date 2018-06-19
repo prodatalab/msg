@@ -3,9 +3,9 @@
     "type": "fills",
     "status": "creating",
     "created_at": "2015-01-06T10:34:47.000Z",
-    "completed_at": undefined,
+    "completed_at": "",
     "expires_at": "2015-01-13T10:35:47.000Z",
-    "file_url": undefined,
+    "file_url": "",
     "params": {
         "start_date": "2014-11-01T00:00:00.000Z",
         "end_date": "2014-11-30T23:59:59.000Z"

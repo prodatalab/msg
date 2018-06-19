@@ -4,8 +4,10 @@
     "sequence": 80,
     "order_id": "ac928c66-ca53-498f-9c13-a110027a60e8",
     "product_id": "BTC-USD",
-    "new_size": "5.23512",
-    "old_size": "12.234412",
+    "new_funds": "5.23512",
+    "old_funds": "12.234412",
     "price": "400.23",
-    "side": "sell"
+    "side": "sell",
+    "new_size": "",
+    "old_size": ""
 }
